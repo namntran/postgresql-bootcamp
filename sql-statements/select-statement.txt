@@ -1,0 +1,20 @@
+SELECT Statement
+
+* one of the most common tasks is to query data from tables by using the SELECT statement
+
+* it has many clauses that you can combine to for a powerful query
+
+* SQL is case insensitive, use SQL keywords in upper case to make code more readable
+
+basic format:
+
+SELECT column1, column2, ... FROM table_name
+
+e.g. 
+SELECT * FROM actor;
+SELECT * FROM country;
+SELECT first_name,last_name FROM actor;
+SELECT actor_id FROM actor;
+
+SELECT first_name,last_name,email 
+FROM customer;
